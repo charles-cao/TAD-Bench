@@ -29,7 +29,7 @@ model = model.to(device)
 
 
 start_time = time.time()
-batch_size = 16  # 设置 batch size，例如 16
+batch_size = 16 
 sentence_embeddings = []
 
 dataloader = DataLoader(texts, batch_size=batch_size, shuffle=False)
