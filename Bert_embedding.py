@@ -19,7 +19,7 @@ texts = loaded['data'].tolist()
 labels = loaded['label'].tolist()
 
 model_name = "bert-base-uncased"
-cache_dir = "model/bert-base-uncased"  # 自定义本地缓存路径
+cache_dir = "model/bert-base-uncased"
 
 tokenizer = BertTokenizer.from_pretrained(model_name, cache_dir=cache_dir)
 model = BertModel.from_pretrained(model_name, cache_dir=cache_dir)

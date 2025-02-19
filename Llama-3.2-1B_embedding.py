@@ -26,13 +26,10 @@ model = AutoModel.from_pretrained(model_name, cache_dir=cache_dir, device_map="a
 start_time = time.time()
 
 
-# 将 pad_token 设置为 eos_token
 tokenizer.pad_token = tokenizer.eos_token
 
-# 定义一个批量大小
 batch_size = 16
 
-# 使用 DataLoader 分批加载数据
 dataloader = DataLoader(texts, batch_size=batch_size, shuffle=False)
 
 all_embeddings = []
