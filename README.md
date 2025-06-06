@@ -75,13 +75,13 @@ client = OpenAI(
   api_key = xxx # your key here
 )
 ```
+## Performance Comparison
 
-### Custom Datasets
-To use your own dataset:
+![Evaluation](eva.png)
 
-1. Format your data as `.npz` file with `data` and `label` arrays
-2. Update the `data_dir` path in embedding scripts
-3. Run the embedding generation and evaluation pipeline
+## Embedding Demonstration
+
+![demo](demo.png)
 
 ## 📚 Citation
 
