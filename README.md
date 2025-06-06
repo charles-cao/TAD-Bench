@@ -83,21 +83,6 @@ client = OpenAI(
 
 ![demo](demo.png)
 
-## 📚 Citation
-
-If you use TAD-Bench in your research, please cite:
-
-```bibtex
-@misc{cao2025tadbenchcomprehensivebenchmarkembeddingbased,
-      title={TAD-Bench: A Comprehensive Benchmark for Embedding-Based Text Anomaly Detection}, 
-      author={Yang Cao and Sikun Yang and Chen Li and Haolong Xiang and Lianyong Qi and Bo Liu and Rongsheng Li and Ming Liu},
-      year={2025},
-      eprint={2501.11960},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2501.11960}, 
-}
-```
 
 ## 📄 License
 
